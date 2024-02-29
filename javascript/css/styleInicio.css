@@ -145,6 +145,8 @@ inline-block los pone en una lista horizontal
 
 
 .content-portafolio p{
+    text-align: left;
+    margin-left: 30%;
     text-decoration: none;
     color: #f2c4c4;
     transition: 300ms all;
