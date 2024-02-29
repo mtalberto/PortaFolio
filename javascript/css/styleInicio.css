@@ -1,0 +1,166 @@
+body{
+    text-align: center;
+    /*           Para rellenar todo la pagina y no queden bordes    */
+    margin: 0px;
+    padding: 0px;
+
+    background: #1c4d5c;
+
+    /*    Fuentes       */
+    font-size: larger;
+ 
+    font-family:'Times New Roman', Times, serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:antialiased;
+}
+
+h2{
+    color: #ecf9f5;
+    margin-left: 10px;
+   margin-top: 25px;
+   text-shadow: 0px 3px 3px #eda3a3;
+    display: block;   
+    float: left;
+    margin-left: 19%
+}
+
+.center{
+    width: 75%;
+    margin: 0px auto;
+}
+
+#header{
+    
+    height: 120px;
+width: 100%;
+   
+    
+  
+}
+
+#logo{
+    width: 40%;
+    font-size: 25px;
+    float: left;
+    margin-top: 15px;
+}
+
+/*
+Menu 
+*/
+#menu{
+   
+    font-size: 15px;
+    display: block;
+    float: right;
+}
+/*
+Menu Imagenes
+*/
+
+#menu ul li img{
+   
+    margin-top: 5px;
+    width: 40%;
+    height: 80%;
+    display: block;
+    float: right;
+}
+
+
+#logo img{
+    margin-top: 2px;
+    margin-right: 10px;
+    height: 80px;
+    display: block;
+    float: left;
+    animation: girar infinite 15s linear
+}
+/* animacion*/
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+#brand{
+    color: #ecf9f5;
+    margin-left: 10px;
+   margin-top: 25px;
+   text-shadow: 0px 3px 3px #eda3a3;
+    display: block;   
+    float:left;
+}
+
+#menu ul{
+    line-height: 85px;
+    width: 95%;
+    float: right;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .content-portafolio p {
+      width: 100%; /* Ajusta para pantallas más pequeñas */
+    }
+  }
+
+.content-portafolio{
+    margin-top: 15%;
+    width: 100%;
+   
+   
+    float:left;
+
+    height: 400px;
+    color:  rgb(252, 252, 252);
+  
+    /* degradado css*/
+    
+}
+
+/*  list-style quitar los puntos de la lista
+inline-block los pone en una lista horizontal
+*/
+#menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 80px;
+    margin-left: 12px;
+    margin-right: 1px;
+
+}
+
+.clearfix{
+    width: 75%;
+    margin:0px auto;
+    clear: both;
+}
+
+
+.content-portafolio p{
+    text-decoration: none;
+    color: #f2c4c4;
+    transition: 300ms all;
+   
+    
+    
+}
+
+/* aplicar transiccion  
+#menu a{
+    text-decoration: none;
+    color: #dd9393;
+    transition: 300ms all;
+}*/
+/*  cuando te situas encima del link */
+.content-portafolio p:hover{
+    color: aliceblue;
+    font-size: x-large;
+}
