@@ -40,10 +40,6 @@ width: 100%;
 }
 
 
-.imagenPerfil{
-    border-radius: 150px;
-}
-
 #logo{
    
     width: 40%;
@@ -76,6 +72,7 @@ Menu Imagenes
 
 
 #logo img{
+    border-radius: 150px;
     margin-top: 2px;
     margin-right: 10px;
     height: 80px;
