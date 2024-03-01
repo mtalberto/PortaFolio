@@ -39,7 +39,13 @@ width: 100%;
   
 }
 
+
+.imagenPerfil{
+    border-radius: 150px;
+}
+
 #logo{
+   
     width: 40%;
     font-size: 25px;
     float: left;
